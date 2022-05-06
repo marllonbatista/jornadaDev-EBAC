@@ -145,12 +145,20 @@ body {
     width: 100%;
     margin-bottom: 36px;
 }
+.experience-container #experience{
+    color:#70C6C7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4em;
+    text-transform: uppercase;
+}
 .experience-container .exp-left,
 .experience-container .exp-right{
     width: 50%;
     display:flex;
     flex-direction: column;
     align-items: baseline;
+    margin-top: 38px;
 }
 .experience-container #exp-company-name{
     color: var(--title-color);
@@ -183,3 +191,61 @@ body {
     border-left:  3px solid #A5A3A3;
     padding-left: 8px;
 } 
+/* education section */
+.right-container .education-school-1,
+.right-container .education-school-2{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.education-container{
+    margin: 94px 0;
+}
+.education-container #education{
+    color:#70C6C7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.education-container .education-left,
+.education-container .education-right{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 38px;
+}
+.education-container #education-company-name{
+    color: var(--title-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.education-container #education-time-period{
+    color: var(--text-color-right);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+.education-container #education-position{
+    color: var(--title-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.education-container #education-description{
+    color: var(--text-color-right);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 28px;
+    border-left:  3px solid #A5A3A3;
+    padding-left: 8px;
+}
