@@ -249,3 +249,62 @@ body {
     border-left:  3px solid #A5A3A3;
     padding-left: 8px;
 }
+/* certificates section */
+
+.right-container .certificates-school-1,
+.right-container .certificates-school-2{
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    width: 100%;
+    margin-bottom: 36px;
+}
+.certificates-container{
+   margin-bottom: 96px;
+}
+.certificates-container #certificates{
+    color:#70C6C7;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+.certificates-container .certificates-left,
+.certificates-container .certificates-right{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin-top: 38px;
+}
+.certificates-container #certificates-company-name{
+    color: var(--title-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.certificates-container #certificates-time-period{
+    color: var(--text-color-right);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+.certificates-container #certificates-position{
+    color: var(--title-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+}
+.certificates-container #certificates-description{
+    color: var(--text-color-right);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6em;
+    line-height: 28px;
+    border-left:  3px solid #A5A3A3;
+    padding-left: 8px;
+}
