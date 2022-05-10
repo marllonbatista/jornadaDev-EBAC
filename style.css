@@ -312,7 +312,7 @@ body {
 @media screen and (max-width:1268px) {
     .resume-container {
         height: 100%;
-        width: 96%;
+        width: 100%;
         margin: 2rem auto;
         display: flex;
         flex-direction: column; 
@@ -323,12 +323,8 @@ body {
         display: flex;
         flex-direction: column;
         align-items:center;
-        padding: 0 5%;
-    }
-    .contact-container #title,
-    .contact-container ul,
-    .skills-container ul{
         text-align: center;
+        padding: 0 5%;
     }
     .resume-container .right-container{
         width: 100%;
